@@ -548,7 +548,7 @@ function group(/* array, keySelector, valueSelector */) {
  */
 function selectMany(/* arr, childrenSelector */) {
   throw new Error('Not implemented');
-  // return arr.childrenSelector
+  // return arr.childrenSelector();
 }
 
 
